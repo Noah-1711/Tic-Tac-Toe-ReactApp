@@ -1,0 +1,62 @@
+.board-container{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.board-row{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.player-won{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-btn{
+    width: 130px;
+    height: 45px;
+    margin: 1rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-color: rgb(44, 135, 255);
+    color: rgb(255, 255, 255);
+}
+
+.scores{
+    width: 300px;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+
+
+.player-won h1{
+    font-size: 30px;
+}
+.x-score{
+    color: rgb(255, 70, 37);
+    font-size: 22px;
+
+}
+
+.o-score{
+    color: rgb(44, 135, 255);
+    font-size: 22px;
+
+
+}
